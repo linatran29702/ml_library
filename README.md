@@ -1,11 +1,10 @@
-# ML Library
-
-A simple, modular machine learning library built with scikit-learn.  
+## ML Library
+A simple, modular machine learning library built with scikit-learn.
 It includes models, evaluation metrics, and visualization tools for quick experimentation.
 
----
-
 ## 📂 Project Structure
+
+```
 ml_library/
 ├── models/
 │   ├── linear.py
@@ -16,11 +15,9 @@ ml_library/
 │   ├── evaluation.py
 ├── visualization/
 │   ├── plots.py
-├── init.py
+├── __init__.py
 └── README.md
-
-
----
+```
 
 ## 🚀 Usage Example
 
@@ -44,3 +41,16 @@ print(evaluate(y, y_pred))
 
 # Visualize
 plot_predictions(y, y_pred)
+```
+
+## 🧩 Features
+Linear Regression
+Decision Tree
+Support Vector Machine
+Random Forest
+Evaluation metrics (MSE, MAE, R²)
+Visualization (true vs predicted plots)
+
+
+## 👩‍💻 Author
+Created by Lina Tran  
